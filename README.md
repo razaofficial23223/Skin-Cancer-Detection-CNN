@@ -1,2 +1,39 @@
-# Skin-Cancer-Detection-CNN
-PyTorch CNN pipeline for Skin Cancer Detection. Performs EDA on 1200 images, splits data 70:20:10 (Train/Test/Val), and trains a custom neural network. Includes classification reports, confusion matrices, and tracking curves for training, testing, and validation loss/accuracy. Generates actual vs predicted label outputs for 10 test images.
+
+# Skin Cancer Image Classification
+
+An educational image classification project using
+TensorFlow, MobileNetV2, and Streamlit.
+
+## Features
+- Upload skin images
+- Image classification into 9 classes
+- Class-wise model confidence scores
+- Deep Learning using MobileNetV2
+
+## Technologies
+- Python
+- TensorFlow
+- MobileNetV2
+- Streamlit
+- NumPy
+- Pillow
+
+## How to Run
+
+Install requirements:
+
+pip install -r requirements.txt
+
+Run the application:
+
+streamlit run app.py
+
+## Project Files
+- app.py
+- requirements.txt
+- class_names.json
+- skin_cancer_model.keras
+
+## Disclaimer
+This project is for educational purposes only.
+It is not intended for medical diagnosis or treatment.
